@@ -1,3 +1,26 @@
+@font-face {
+    font-family: Kozuka Gothic Pro;
+    src: url("fonts/KozGoPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Kozuka Gothic Pro Extra Light;
+    src: url("fonts/KozGoPro-ExtraLight.otf") format("opentype");
+}
+
 body {
     background-color: #D9756C;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: "Kozuka Gothic Pro Extra Light", sans-serif;
+    font-size: 30em
+}
+
+h2 {
+    font-family: "Kozuka Gothic Pro", sans-serif;
 }
