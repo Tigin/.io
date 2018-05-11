@@ -18,9 +18,24 @@ h1, h2 {
 
 h1 {
     font-family: "Kozuka Gothic Pro Extra Light", sans-serif;
-    font-size: 30em
+    font-size: 30em;
+    text-align: center;
+    padding-top: 0.3em;
 }
 
 h2 {
     font-family: "Kozuka Gothic Pro", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1.2em;
+    text-align: right;
+    margin-bottom: 1em;
+    /*padding-right: 1.4em;*/
+}
+
+header_one {
+    margin: 0 auto;
+}
+
+header_two {
+    text-align: right;
 }
