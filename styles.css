@@ -21,6 +21,8 @@ h1 {
     font-size: 30em;
     text-align: center;
     padding-top: 0.3em;
+    /*width: 100%;*/
+    display: block;
 }
 
 h2 {
@@ -28,14 +30,19 @@ h2 {
     font-size: 1.2em;
     letter-spacing: 1.2em;
     text-align: right;
-    margin-bottom: 1em;
-    /*padding-right: 1.4em;*/
+    display: block;
 }
 
-header_one {
+.header_two {
+    text-align: right;
+    width: 60%;
     margin: 0 auto;
 }
 
-header_two {
-    text-align: right;
+.page {
+    text-align: center;
+}
+
+.header {
+    display: inline-block;
 }
