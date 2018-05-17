@@ -45,16 +45,30 @@ h2 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
     h1 {
-        font-size: 1em;
+        font-size: 10em;
+    }
+
+    .header {
+        margin-top: 2.5em;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 20em;
+    }
+
+    h2 {
+        text-align: right;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
